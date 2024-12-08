@@ -48,14 +48,6 @@ app.post("/compile", (req, res) => {
     data: data,
   };
 
-  // let config = {
-  //   method: "get",
-  //   url: "https://emkc.org/api/v2/runtimes",
-  //   headers: {
-  //     "Content-Type": "application/json",
-  //   },
-  // };
-
   // calling the code compilation API
   Axios(config)
     .then((response) => {
