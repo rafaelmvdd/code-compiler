@@ -1,5 +1,4 @@
-﻿export const resetText = `
-function isPrime(n) {
+﻿export const resetText = `function isPrime(n) {
 
 }// Big-O: 
 
@@ -456,13 +455,9 @@ console.log(
   graph.hasVertex('B') === undefined
 );
 console.log('Graph Test 5 - display: A -> C C -> A');
-graph.display();
+graph.display();`;
 
-`;
-
-
-export const compareText = `
-function isPrime(n) {
+export const compareText = `function isPrime(n) {
   if (n < 2) return false;
   for (let i = 2; i < Math.sqrt(n); i++) {
     if (n % i === 0) return false;
@@ -1180,6 +1175,4 @@ console.log(
   graph.hasVertex('B') === undefined
 );
 console.log('Graph Test 5 - display: A -> C C -> A');
-graph.display();
-
-`
+graph.display();`;
